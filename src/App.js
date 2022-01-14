@@ -28,9 +28,15 @@ function App() {
           <h2 className="text-4xl m-5">About Me</h2>
           <p className="w-8/12 m-auto">I am an innovative Software Engineer with a passion for problem-solving that drives me to create high quality applications that are instinctively user-friendly. My background in retail and restaurant settings help me better understand consumer and customer needs and helps me focus under pressure, stay organized, and receive constant feedback. I have a constant drive to sculpt and mitigate actions to create a more efficient and straightforward engagement for customers.</p>
           <div>
-            <button className="btn btn-primary m-5">LinkedIn</button>
-            <button className="btn btn-accent m-5">GitHub</button>
-            <button className="btn btn-secondary m-5">Resume</button>
+            <a href="https://www.linkedin.com/in/alexandermaniwang/" target='_blank' rel='noreferrer'>
+              <button className="btn btn-primary m-5">LinkedIn</button>
+            </a>
+            <a href="https://github.com/WangManLex" target='_blank' rel='noreferrer'>
+              <button className="btn btn-accent m-5">GitHub</button>
+            </a>
+            <a href="https://drive.google.com/file/d/1AVuQ9tatLAgcVcXq8w3HxZpI4-E-OzkK/view?usp=sharing" target='_blank' rel='noreferrer'>
+              <button className="btn btn-secondary m-5">Resume</button>
+            </a>
           </div>
         </div>
         <div className="divider w-8/12 m-auto"></div>
@@ -44,12 +50,12 @@ function App() {
               <h2 className="card-title">Genshin Builds</h2>
               <p>Genshin Builds was designed to plan and create teams customizing each playable character for a better experience within the game Genshin Impact.</p>
               <div className="justify-center card-actions">
-                <a href="https://genshin-team-builder.herokuapp.com/">
+                <a href="https://genshin-team-builder.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button className='btn'>
                     Go To App
                   </button>
                 </a>
-                <a href="https://github.com/WangManLex/genshin-builds">
+                <a href="https://github.com/WangManLex/genshin-builds" target='_blank' rel='noreferrer'>
                   <button className='btn'>
                     Github
                   </button>
@@ -66,12 +72,12 @@ function App() {
               <h2 className="card-title">AniWorld</h2>
               <p>AniWorld is an anime search website where you're able to track animes if you are currently watching or have watched. Google OAuth is used to save profile information as well.</p>
               <div className="justify-center card-actions">
-                <a href="https://ani-world.herokuapp.com/">
+                <a href="https://ani-world.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button className="btn">
                     Go To App
                   </button>
                 </a>
-                <a href="https://github.com/WangManLex/AniWorld">
+                <a href="https://github.com/WangManLex/AniWorld" target='_blank' rel='noreferrer'>
                   <button className="btn">
                     Github
                   </button>
@@ -88,12 +94,12 @@ function App() {
               <h2 className="card-title">Farming Sim</h2>
               <p>With Farming Sim, you can plant any kind of plant you'd like as well as give it any fertilizer you'd like. By using Python and Django, this app demonstrates CRUD.</p>
               <div className="justify-center card-actions">
-                <a href="https://python-farming-sim.herokuapp.com/">
+                <a href="https://python-farming-sim.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button className="btn">
                     Go To App
                   </button>
                 </a>
-                <a href="https://github.com/WangManLex/farming-sim">
+                <a href="https://github.com/WangManLex/farming-sim" target='_blank' rel='noreferrer'>
                   <button className="btn">
                     Github
                   </button>
@@ -110,12 +116,12 @@ function App() {
               <h2 className="card-title">Blackjack</h2>
               <p>Blackjack was created using Javascript and made to tackle the concepts of game logic.</p>
               <div className="justify-center card-actions">
-                <a href="https://wangmanlex.github.io/Blackjack/">
+                <a href="https://wangmanlex.github.io/Blackjack/" target='_blank' rel='noreferrer'>
                   <button className="btn">
                     Go To App
                   </button>
                 </a>
-                <a href="https://github.com/WangManLex/Blackjack">
+                <a href="https://github.com/WangManLex/Blackjack" target='_blank' rel='noreferrer'>
                   <button className="btn">
                     Github
                   </button>

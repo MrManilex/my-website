@@ -1,115 +1,143 @@
 import './App.css';
+import Navbar from './Components/Navbar/Navbar.jsx'
 
 function App() {
   return (
     <>
-      <nav className='navbar is-black is-fixed-top'>
-        <div className='navbar-brand'>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-        <div className='navbar-menu'>
-          <div className='navbar-start'>
-            <a class="navbar-item">About Me</a>
-            <a class="navbar-item">Skills</a>
-            <a class="navbar-item">My Apps</a>
-            <a class="navbar-item">Resume</a>
-          </div>
-        </div>
-      </nav>
-      <main className='is-flex is-flex-direction-column is-align-items-center'>
-        <div className="background">
-          <div className="me-me">
-            <h1 className='name title is-1'>Alexander Maniwang</h1>
-            <p className='about-me title is-3'>Software Engineer</p>
-          </div>
-        </div>
-        {/* put a line right here to seperate content */}
-        {/* <section>
-          <div className='skills section'>
-            <p className='title is-3'>Proficiencies</p>
-          </div>
-        </section> */}
-        <p className='title is-2'>Apps</p>
-        <div className="project-one is-flex">
-          <div className="project-details">
-            <p className="title is-3">Genshin Builds</p>
-            <p>Genshin builds was designed to plan and create teams customizing <br />each playable character for a better experience <br /> within the game Genshin Impact.</p>
-            <div>
-              <a href="https://genshin-team-builder.herokuapp.com/">
-                <button class="button is-primary">
-                  Go To App
-                </button>
-              </a>
-              <a href="https://github.com/WangManLex/genshin-builds">
-                <button class="button is-link">
-                  Github
-                </button>
-              </a>
+      <Navbar />
+      <main className='bg-black'>
+        <div className="hero min-h-screen">
+          <div className="text-center hero-content">
+            <div className="max-w-md">
+              <div className='avatar w-6/12'>
+                <img src="images/IMG_0544.jpeg" alt="Placeholder" className="mask mask-circle" />
+              </div>
+              <h1 className="mb-5 text-5xl font-bold">
+                Alexander Maniwang
+              </h1>
+              <p className="mb-5 text-2xl">
+                Full-Stack Developer
+              </p>
             </div>
           </div>
-          <img src="images/GenshinBuilds.png" alt="Placeholder image" />
         </div>
-        {/* put a line right here to seperate content */}
-        <hr />
-        <div className="project-two is-flex">
-          <div className="project-details">
-            <p className="title is-3">AniWorld</p>
-            <p>AniWorld is an anime search website where you're able to track animes <br />if you are currently watching or have watched. Google OAuth <br />is used to save profile information as well.</p>
-            <div>
-              <a href="https://ani-world.herokuapp.com/">
-                <button class="button is-primary">
-                  Go To App
-                </button>
-              </a>
-              <a href="https://github.com/WangManLex/AniWorld">
-                <button class="button is-link">
-                  Github
-                </button>
-              </a>
+        <svg class="animate-bounce w-6 h-6">
+        </svg>
+        <div className="divider w-8/12 m-auto"></div>
+        <div className="text-center">
+          <h2 className="text-4xl m-5">About Me</h2>
+          <p className="w-8/12 m-auto">I am an innovative Software Engineer with a passion for problem-solving that drives me to create high quality applications that are instinctively user-friendly. My background in retail and restaurant settings help me better understand consumer and customer needs and helps me focus under pressure, stay organized, and receive constant feedback. I have a constant drive to sculpt and mitigate actions to create a more efficient and straightforward engagement for customers.</p>
+          <div>
+            <button className="btn btn-primary m-5">LinkedIn</button>
+            <button className="btn btn-accent m-5">GitHub</button>
+            <button className="btn btn-secondary m-5">Resume</button>
+          </div>
+        </div>
+        <div className="divider w-8/12 m-auto"></div>
+        <div className="w-8/12 m-auto">
+          {/* GENSHIN BUILDS */}
+          <div className="card text-center shadow-2xl">
+            <figure className="px-10 pt-10">
+              <img src="images/GenshinBuilds.png" alt="Genshin Builds Landing Page" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Genshin Builds</h2>
+              <p>Genshin Builds was designed to plan and create teams customizing each playable character for a better experience within the game Genshin Impact.</p>
+              <div className="justify-center card-actions">
+                <a href="https://genshin-team-builder.herokuapp.com/">
+                  <button className='btn'>
+                    Go To App
+                  </button>
+                </a>
+                <a href="https://github.com/WangManLex/genshin-builds">
+                  <button className='btn'>
+                    Github
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
-          <img src="images/AniWorld.png" alt="AniWorld Landing Page" />
-        </div>
-        {/* put a line right here to seperate content */}
-        <hr />
-        <div className="project-three is-flex">
-          <div className="project-details">
-            <p className="title is-3">Farming Sim</p>
-            <p>With Farming Sim, you can plant any kind of plant you'd like as well as give it any fertilizer<br/> you'd like. By using Python and Django, this app demonstrates CRUD.</p>
-            <div>
-              <a href="https://python-farming-sim.herokuapp.com/">
-                <button class="button is-primary">
-                  Go To App
-                </button>
-              </a>
-              <a href="https://github.com/WangManLex/farming-sim">
-                <button class="button is-link">
-                  Github
-                </button>
-              </a>
+          {/* ANIWORLD  */}
+          <div className="card text-center shadow-2xl">
+            <figure className="px-10 pt-10">
+              <img src="images/AniWorld.png" alt="AniWorld Landing Page" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">AniWorld</h2>
+              <p>AniWorld is an anime search website where you're able to track animes if you are currently watching or have watched. Google OAuth is used to save profile information as well.</p>
+              <div className="justify-center card-actions">
+                <a href="https://ani-world.herokuapp.com/">
+                  <button className="btn">
+                    Go To App
+                  </button>
+                </a>
+                <a href="https://github.com/WangManLex/AniWorld">
+                  <button className="btn">
+                    Github
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
-          <img src="images/FarmingSim.png" alt="AniWorld Landing Page" />
+          {/* FARMING SIM  */}
+          <div className="card text-center shadow-2xl">
+            <figure className="px-10 pt-10">
+              <img src="images/FarmingSim.png" alt="FarmingSim Landing Page" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Farming Sim</h2>
+              <p>With Farming Sim, you can plant any kind of plant you'd like as well as give it any fertilizer you'd like. By using Python and Django, this app demonstrates CRUD.</p>
+              <div className="justify-center card-actions">
+                <a href="https://python-farming-sim.herokuapp.com/">
+                  <button className="btn">
+                    Go To App
+                  </button>
+                </a>
+                <a href="https://github.com/WangManLex/farming-sim">
+                  <button className="btn">
+                    Github
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* BLACKJACK */}
+          <div className="card text-center shadow-2xl">
+            <figure className="px-10 pt-10">
+              <img src="images/BlackJack.png" alt="Blackjack" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Blackjack</h2>
+              <p>Blackjack was created using Javascript and made to tackle the concepts of game logic.</p>
+              <div className="justify-center card-actions">
+                <a href="https://wangmanlex.github.io/Blackjack/">
+                  <button className="btn">
+                    Go To App
+                  </button>
+                </a>
+                <a href="https://github.com/WangManLex/Blackjack">
+                  <button className="btn">
+                    Github
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        {/* put a line right here to seperate content */}
-        <hr></hr>
-        <div className="project-four is-flex">
-          <a href="https://github.com/WangManLex/Blackjack">Blackjack</a>
-          <img src="images/BlackJack.png" alt="Placeholder image" />
-        </div>
-        {/* put a line right here to seperate content */}
-        <hr></hr>
-        <div className='reach section'>
-          <p className='title is-2'>Get In Touch</p>
-          <button className="button is-success is-focused">
+        <div className="divider w-8/12 m-auto"></div>
+        {/* -------- REACH ME ------------ */}
+        <div className='flex-column text-center'>
+          <p className='text-4xl m-9'>Get In Touch</p>
+          <button className="btn btn-primary mb-9">
             alexandermaniwang99@gmail.com
           </button>
         </div>
       </main>
+      <footer className="p-10 footer bg-neutral text-neutral-content">
+        <div>
+          <span>© 2022 Alexander Maniwang</span>
+        </div>
+      </footer>
     </>
   );
 }

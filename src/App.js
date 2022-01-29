@@ -23,7 +23,7 @@ function App() {
         </div>
         <svg class="animate-bounce w-6 h-6">
         </svg>
-        <div className="divider w-8/12 m-auto"></div>
+        <div className="divider w-8/12 m-auto" id='about-me'></div>
         <div className="text-center">
           <h2 className="text-4xl m-5">About Me</h2>
           <p className="w-8/12 m-auto">I am an innovative Software Engineer with a passion for problem-solving that drives me to create high quality applications that are instinctively user-friendly. My background in retail and restaurant settings help me better understand consumer and customer needs and helps me focus under pressure, stay organized, and receive constant feedback. I have a constant drive to sculpt and mitigate actions to create a more efficient and straightforward engagement for customers.</p>
@@ -39,7 +39,7 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="divider w-8/12 m-auto"></div>
+        <div className="divider w-8/12 m-auto" id='portfolio'></div>
         <div className="w-8/12 m-auto">
           {/* GENSHIN BUILDS */}
           <div className="card text-center shadow-2xl">
@@ -130,7 +130,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="divider w-8/12 m-auto"></div>
+        <div className="divider w-8/12 m-auto" id='contact'></div>
         {/* -------- REACH ME ------------ */}
         <div className='flex-column text-center'>
           <p className='text-4xl m-9'>Get In Touch</p>

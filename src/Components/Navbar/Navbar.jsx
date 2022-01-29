@@ -3,24 +3,24 @@ import React from 'react'
 const Navbar = (props) => {
    return (
       <>
-         <div class="navbar shadow-lg bg-black text-neutral-content">
-            <div class="px-2 mx-2 navbar-start">
-               <span class="text-lg font-bold">
+         <div className="navbar shadow-lg bg-black text-neutral-content">
+            <div className="px-2 mx-2 navbar-start">
+               <span className="text-lg font-bold">
                   Alexander Maniwang
                </span>
             </div>
-            <div class="hidden px-2 mx-2 navbar-end lg:flex">
-               <div class="flex items-stretch">
-                  <a class="btn btn-ghost btn-sm rounded-btn">
+            <div className="hidden px-2 mx-2 navbar-end lg:flex">
+               <div className="flex items-stretch">
+                  <a className="btn btn-ghost btn-sm rounded-btn" href='#about-me'>
                      About Me
                   </a>
-                  <a class="btn btn-ghost btn-sm rounded-btn">
+                  <a className="btn btn-ghost btn-sm rounded-btn" href='#portfolio'>
                      Portfolio
                   </a>
-                  <a class="btn btn-ghost btn-sm rounded-btn">
+                  <a className="btn btn-ghost btn-sm rounded-btn" href='#skills'>
                      Skills
                   </a>
-                  <a class="btn btn-ghost btn-sm rounded-btn">
+                  <a className="btn btn-ghost btn-sm rounded-btn" href='#contact'>
                      Contact
                   </a>
                </div>

@@ -21,8 +21,6 @@ function App() {
             </div>
           </div>
         </div>
-        <svg class="animate-bounce w-6 h-6">
-        </svg>
         <div className="divider w-8/12 m-auto" id='about-me'></div>
         <div className="text-center">
           <h2 className="text-4xl m-5">About Me</h2>
@@ -45,10 +43,11 @@ function App() {
           <div className="card text-center shadow-2xl">
             <figure className="px-10 pt-10">
               <img src="images/GenshinBuilds.png" alt="Genshin Builds Landing Page" />
+              <img src="images/GenshinBuilds-2.png" alt="Genshin Builds Profile Page" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Genshin Builds</h2>
-              <p>Genshin Builds was designed to plan and create teams customizing each playable character for a better experience within the game Genshin Impact.</p>
+              <p>Genshin Builds was designed to plan and create teams customizing each playable character for a better experience within the game Genshin Impact. This project was created in collaboration with two other individuals using a MERN stack format and an API.</p>
               <div className="justify-center card-actions">
                 <a href="https://genshin-team-builder.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button className='btn'>
@@ -67,10 +66,11 @@ function App() {
           <div className="card text-center shadow-2xl">
             <figure className="px-10 pt-10">
               <img src="images/AniWorld.png" alt="AniWorld Landing Page" />
+              <img src="images/AniWorld-2.png" alt="AniWorld Search Page" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">AniWorld</h2>
-              <p>AniWorld is an anime search website where you're able to track animes if you are currently watching or have watched. Google OAuth is used to save profile information as well.</p>
+              <p>AniWorld is an anime search website where you're able to track animes if you are currently watching or have watched. Google OAuth is used to save profile information as well. By using the API AniApi, information about each anime can retrieved and displayed in each details page.</p>
               <div className="justify-center card-actions">
                 <a href="https://ani-world.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button className="btn">
@@ -89,6 +89,7 @@ function App() {
           <div className="card text-center shadow-2xl">
             <figure className="px-10 pt-10">
               <img src="images/FarmingSim.png" alt="FarmingSim Landing Page" />
+              <img src="images/FarmingSim-2.png" alt="FarmingSim Plant List Page" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Farming Sim</h2>
@@ -114,7 +115,7 @@ function App() {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Blackjack</h2>
-              <p>Blackjack was created using Javascript and made to tackle the concepts of game logic.</p>
+              <p>Blackjack was created using JavaScript, HTML, and CSS to tackle the concepts of game logic.</p>
               <div className="justify-center card-actions">
                 <a href="https://wangmanlex.github.io/Blackjack/" target='_blank' rel='noreferrer'>
                   <button className="btn">

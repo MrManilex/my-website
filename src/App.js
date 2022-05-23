@@ -135,19 +135,21 @@ function App() {
         <div className="text-center">
           <h2 className="text-4xl m-5">Skills</h2>
           <div className='flex justify-center my-5'>
-            <img src="https://img.icons8.com/color/144/000000/javascript--v1.png"/>
+            <img src="https://img.icons8.com/color/144/000000/javascript--v1.png" />
             <img src="https://img.icons8.com/color/144/000000/react-native.png" />
             <img src="https://img.icons8.com/color/144/000000/nodejs.png" />
             <img src="https://img.icons8.com/color/144/000000/python--v1.png" />
-            <img src="https://img.icons8.com/ios-filled/150/000000/github.png" className="rounded-full bg-neutral-content"/>
+            <img src="https://img.icons8.com/ios-filled/150/000000/github.png" className="rounded-full bg-neutral-content" />
           </div>
         </div>
-
 
         <div className="divider w-8/12 m-auto" id='contact'></div>
         {/* -------- REACH ME ------------ */}
         <div className='flex-column text-center'>
           <p className='text-4xl m-9'>Get In Touch</p>
+          <a href="https://www.linkedin.com/in/alexandermaniwang/" target='_blank' rel='noreferrer'>
+            <button className="btn btn-primary m-5">LinkedIn</button>
+          </a>
           <button className="btn btn-primary mb-9 mx-2">
             alexandermaniwang99@gmail.com
           </button>
@@ -157,16 +159,15 @@ function App() {
         <div>
           <span>© 2022 Alexander Maniwang</span>
         </div>
+        <div>
+          <span className="neutral-content"> All icons used by <a href="https://icons8.com/">Icons8**</a>
+          </span>
+        </div>
       </footer>
     </>
   );
 }
 
-// <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-// <a target="_blank" href="https://icons8.com/icon/123603/react-native">React Native</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-// <a target="_blank" href="https://icons8.com/icon/54087/nodejs">Nodejs</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-// <a target="_blank" href="https://icons8.com/icon/13441/python">Python</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-// <a target="_blank" href="https://icons8.com/icon/12599/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-// <a target="_blank" href="https://icons8.com/icon/17842/linux">Linux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 
 export default App;

@@ -15,18 +15,18 @@ function App() {
               <p className="h-32 name text-5xl font-bold">
                 Alexander Maniwang
               </p>
-              <p className="mb-5 text-2xl">
+              <p className="mb-5 text-2xl" id='about-me'>
                 Full-Stack Developer
               </p>
             </div>
           </div>
         </div>
 
-        <div className="divider w-8/12 m-auto" id='about-me'></div>
+        <div className="divider w-8/12 m-auto"></div>
 
         <div className="text-center">
           <h2 className="text-4xl m-5">About Me</h2>
-          <p className="w-8/12 m-auto">I am an innovative Software Engineer with a passion for problem-solving that drives me to create high quality applications that are instinctively user-friendly. My background in retail and restaurant settings help me better understand consumer and customer needs and helps me focus under pressure, stay organized, and receive constant feedback. I have a constant drive to sculpt and mitigate actions to create a more efficient and straightforward engagement for customers.</p>
+          <p className="w-7/12 m-auto">I am an innovative Software Engineer with a passion for problem-solving that drives me to create high quality applications that are instinctively user-friendly. My background in retail and restaurant settings help me better understand consumer and customer needs and helps me focus under pressure, stay organized, and receive constant feedback. I have a constant drive to sculpt and mitigate actions to create a more efficient and straightforward engagement for customers.</p>
           <div>
             <a href="https://www.linkedin.com/in/alexandermaniwang/" target='_blank' rel='noreferrer'>
               <button className="btn btn-primary m-5">LinkedIn</button>
@@ -35,12 +35,12 @@ function App() {
               <button className="btn btn-accent m-5">GitHub</button>
             </a>
             <a href="https://drive.google.com/file/d/1AVuQ9tatLAgcVcXq8w3HxZpI4-E-OzkK/view?usp=sharing" target='_blank' rel='noreferrer'>
-              <button className="btn btn-secondary m-5">Resume</button>
+              <button className="btn btn-secondary m-5" id='portfolio'>Resume</button>
             </a>
           </div>
         </div>
 
-        <div className="divider w-8/12 m-auto" id='portfolio'></div>
+        <div className="divider w-8/12 m-auto"></div>
 
         <div className="flex-wrap w-8/12 m-auto">
           <h2 className=" text-center text-4xl m-5">Portfolio</h2>
@@ -120,7 +120,7 @@ function App() {
                     </button>
                   </a>
                   <a href="https://github.com/WangManLex/Blackjack" target='_blank' rel='noreferrer'>
-                    <button className="btn">
+                    <button className="btn" id='skills'>
                       Github
                     </button>
                   </a>
@@ -129,6 +129,20 @@ function App() {
             </div>
           </div>
         </div>
+
+        <div className="divider w-8/12 m-auto"></div>
+
+        <div className="text-center">
+          <h2 className="text-4xl m-5">Skills</h2>
+          <div className='flex justify-center my-5'>
+            <img src="https://img.icons8.com/color/144/000000/javascript--v1.png"/>
+            <img src="https://img.icons8.com/color/144/000000/react-native.png" />
+            <img src="https://img.icons8.com/color/144/000000/nodejs.png" />
+            <img src="https://img.icons8.com/color/144/000000/python--v1.png" />
+            <img src="https://img.icons8.com/ios-filled/150/000000/github.png" className="rounded-full bg-neutral-content"/>
+          </div>
+        </div>
+
 
         <div className="divider w-8/12 m-auto" id='contact'></div>
         {/* -------- REACH ME ------------ */}
@@ -147,5 +161,12 @@ function App() {
     </>
   );
 }
+
+// <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// <a target="_blank" href="https://icons8.com/icon/123603/react-native">React Native</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// <a target="_blank" href="https://icons8.com/icon/54087/nodejs">Nodejs</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// <a target="_blank" href="https://icons8.com/icon/13441/python">Python</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// <a target="_blank" href="https://icons8.com/icon/12599/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// <a target="_blank" href="https://icons8.com/icon/17842/linux">Linux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 export default App;

@@ -17,9 +17,9 @@ const Navbar = (props) => {
                   <a className="btn btn-ghost btn-sm rounded-btn" href='#portfolio'>
                      Portfolio
                   </a>
-                  {/* <a className="btn btn-ghost btn-sm rounded-btn" href='#skills'>
+                  <a className="btn btn-ghost btn-sm rounded-btn" href='#skills'>
                      Skills
-                  </a> */}
+                  </a>
                   <a className="btn btn-ghost btn-sm rounded-btn" href='#contact'>
                      Contact
                   </a>

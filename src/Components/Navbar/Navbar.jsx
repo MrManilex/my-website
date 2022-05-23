@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = (props) => {
    return (
       <>
-         <div className="navbar fixed shadow-lg bg-black text-neutral-content w-full">
+         <div className="navbar fixed shadow-lg bg-black text-neutral-content w-full z-50">
             <div className="px-2 mx-2 navbar-start">
                <span className="text-lg font-bold">
                   Alexander Maniwang

@@ -24,7 +24,7 @@ const Navbar = (props) => {
                      </a></li>
                   </ul>
                </div>
-               <a className="btn btn-ghost normal-case text-xl">Alexander Maniwang</a>
+               <a href='/' className="btn btn-ghost normal-case text-xl">Alexander Maniwang</a>
             </div>
             <div className="navbar-end hidden lg:flex ">
                <ul className="menu menu-horizontal p-0 flex-row">

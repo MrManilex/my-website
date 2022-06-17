@@ -132,7 +132,7 @@ function App() {
 
         <div className="divider w-8/12 m-auto"></div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <h2 className="text-4xl m-5">Skills</h2>
           <div className='flex justify-center my-5'>
             <img src="https://img.icons8.com/color/144/000000/javascript--v1.png" />
@@ -141,7 +141,7 @@ function App() {
             <img src="https://img.icons8.com/color/144/000000/python--v1.png" />
             <img src="https://img.icons8.com/ios-filled/150/000000/github.png" className="rounded-full bg-neutral-content" />
           </div>
-        </div>
+        </div> */}
 
         <div className="divider w-8/12 m-auto" id='contact'></div>
         {/* -------- REACH ME ------------ */}

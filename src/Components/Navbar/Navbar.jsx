@@ -3,29 +3,6 @@ import React from 'react'
 const Navbar = (props) => {
    return (
       <>
-         {/* <div className="navbar fixed shadow-lg bg-black text-neutral-content w-full z-50">
-            <div className="px-2 mx-2 navbar-start">
-               <span className="text-lg font-bold">
-                  Alexander Maniwang
-               </span>
-            </div>
-            <div className="px-2 mx-2 navbar-end lg:flex">
-               <div className="flex items-stretch">
-                  <a className="btn btn-ghost btn-sm rounded-btn" href='#about-me'>
-                     About Me
-                  </a>
-                  <a className="btn btn-ghost btn-sm rounded-btn" href='#portfolio'>
-                     Portfolio
-                  </a>
-                  <a className="btn btn-ghost btn-sm rounded-btn" href='#skills'>
-                     Skills
-                  </a>
-                  <a className="btn btn-ghost btn-sm rounded-btn" href='#contact'>
-                     Contact
-                  </a>
-               </div>
-            </div>
-         </div> */}
          <div className="navbar fixed shadow-lg bg-black text-neutral-content w-full z-50">
             <div className="navbar-start">
                <div className="dropdown">
@@ -48,9 +25,6 @@ const Navbar = (props) => {
                   </ul>
                </div>
                <a className="btn btn-ghost normal-case text-xl">Alexander Maniwang</a>
-            </div>
-            <div className='navbar-end'>
-
             </div>
             <div className="navbar-end hidden lg:flex ">
                <ul className="menu menu-horizontal p-0 flex-row">

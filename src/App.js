@@ -44,7 +44,7 @@ function App() {
         <h2 className="text-center text-4xl m-5">Portfolio</h2>
         <div className="hero"> 
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src="images/GenshinBuilds-2.png" className="w-2/3 rounded-lg shadow-2xl" />
+            <img src="images/GenshinBuilds-2.png" className="w-9/12 rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">Genshin Builds</h1>
               <p className='py-6'>Genshin Builds was designed to plan and create teams customizing each playable character for a better experience within the game Genshin Impact. This project was created in collaboration with two other individuals using a <span className='btn-primary'>MERN</span> stack format and an <span className='btn-primary'>API.</span></p>
@@ -86,7 +86,7 @@ function App() {
         </div>
         <div className="hero">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src="images/FarmingSim-2.png" className="w-2/3 rounded-lg shadow-2xl" />
+            <img src="images/FarmingSim-2.png" className="w-9/12 rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">Farming Simulator</h1>
               <p className='py-6'>With Farming Sim, you can plant any kind of plant you'd like as well as give it any fertilizer you'd like. By using <span className='btn-primary'>Python</span> and <span className='btn-primary'>Django</span>, this app demonstrates <span className='btn-primary'>CRUD</span>.</p>
@@ -107,7 +107,7 @@ function App() {
         </div>
         <div className="hero">
           <div className="hero-content flex-col lg:flex-row">
-            <img src="images/BlackJack.png" className="w-2/3 rounded-lg shadow-2xl" />
+            <img src="images/BlackJack.png" className="w-9/12 rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">BlackJack</h1>
               <p className="py-6">Blackjack was created using <span className='btn-primary'>JavaScript</span>, <span className='btn-primary'>HTML</span>, and <span className='btn-primary'>CSS</span> to tackle the concepts of game logic.</p>

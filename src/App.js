@@ -68,7 +68,7 @@ function App() {
             <img src="images/AniWorld-2.png" className="w-2/3 rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">AniWorld</h1>
-              <p className="py-6">AniWorld is an anime search website where you're able to track animes if you are currently watching or have watched. <span className='btn-primary'>Google OAuth</span> is used to save profile information as well. By using the <span className='btn-primary'>API</span> called AniApi, information about each anime can retrieved and displayed in each details page.</p>
+              <p className="py-6">AniWorld is an anime search website where you're able to track animes if you are currently watching or have watched. <span className='btn-primary'>Google OAuth</span> is used to save profile information as well. By using the <span className='btn-primary'>API</span> called AniApi, information about each anime can be retrieved and displayed in each details page.</p>
               <div className="card-actions">
                 <a href="https://ani-world.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button className="btn btn-primary">

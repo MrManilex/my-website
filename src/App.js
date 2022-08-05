@@ -42,7 +42,7 @@ function App() {
 
         <div className="divider w-8/12 m-auto"></div>
         <h2 className="text-center text-4xl m-5">Portfolio</h2>
-        <div className="hero"> 
+        <div className="hero">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src="images/GenshinBuilds-2.png" className="w-9/12 rounded-lg shadow-2xl" />
             <div>
@@ -137,6 +137,7 @@ function App() {
             <img src="https://img.icons8.com/color/144/000000/nodejs.png" />
             <img src="https://img.icons8.com/color/144/000000/python--v1.png" />
             <img src="https://img.icons8.com/ios-filled/150/000000/github.png" className="rounded-full bg-neutral-content" />
+            <img src="https://img.icons8.com/color/144/000000/mongodb.png" />
           </div>
         </div>
 

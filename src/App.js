@@ -42,7 +42,7 @@ function App() {
             <a href="https://github.com/WangManLex" target='_blank' rel='noreferrer'>
               <button className="btn btn-accent m-5">GitHub</button>
             </a>
-            <a href="https://drive.google.com/file/d/1dN_zIji12x4Ph0gsSWlXHoPHMiphntCp/view?usp=sharing" target='_blank' rel='noreferrer'>
+            <a href="https://drive.google.com/file/d/1gh0r0U2SmZtlIo0EcLp9uI0rIOmj3gXx/view?usp=sharing" target='_blank' rel='noreferrer'>
               <button className="btn btn-secondary m-5" id='portfolio'>Resume</button>
             </a>
           </div>

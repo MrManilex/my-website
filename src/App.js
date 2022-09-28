@@ -1,7 +1,15 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar.jsx'
+import React, { useState } from 'react';
 
 function App() {
+  const [aniWorld, setAniWorld] = useState(false)
+
+  const handleClick = (e) => {
+    e.preventDefault()
+    setAniWorld(!aniWorld)
+  }
+
   return (
     <>
       <Navbar />
@@ -68,6 +76,12 @@ function App() {
             <img src="images/AniWorld-2.png" className="w-2/3 rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">AniWorld</h1>
+              <div className="alert alert-error shadow-lg">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  <span>Deprecated - See New Development</span>
+                </div>
+              </div>
               <p className="py-6">AniWorld is an anime search website where you're able to track animes if you are currently watching or have watched. <span className='btn-primary'>Google OAuth</span> is used to save profile information as well. By using the <span className='btn-primary'>API</span> called AniApi, information about each anime can be retrieved and displayed in each details page.</p>
               <div className="card-actions">
                 <a href="https://ani-world.herokuapp.com/" target='_blank' rel='noreferrer'>
@@ -80,6 +94,7 @@ function App() {
                     Github
                   </button>
                 </a>
+                <label htmlFor="my-modal-5" className="btn modal-button">New Development</label>
               </div>
             </div>
           </div>
@@ -162,6 +177,29 @@ function App() {
           </span>
         </div>
       </footer>
+
+      {/* modals  */}
+      <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+      <div className="modal">
+        <div className="modal-box w-11/12 max-w-max">
+          <div className='flex'>
+            <div className='mr-4'>
+              <h3 className="text-4xl font-bold">AniWorld-MERN</h3>
+              <p className="py-4">By utilizing <span className='btn-primary'>Anilist API</span> which uses <span className='btn-primary'>GraphQL</span>, user requests requires queries to specify a custom search. AniWorld will now also signup and/or login users and store user data in <span className='btn-primary'>MongoDB</span> while hashing and protecting their data.</p>
+              <a href="https://github.com/WangManLex/aniworld-front-end">
+                <button className='btn m-2'>Front-End Code</button>
+              </a>
+              <a href="https://github.com/WangManLex/aniworld-back-end">
+                <button className='btn m-2'>Back-End Code</button>
+              </a>
+            </div>
+            <img src='images/AniWorldMERN.png' className="w-3/4 rounded-lg shadow-2xl" />
+          </div>
+          <div className="modal-action">
+            <label htmlFor="my-modal-5" className="btn">Close</label>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar.jsx'
+import Title from './Components/Title/Title.jsx'
 import React, { useState } from 'react';
 
 function App() {
@@ -23,9 +24,9 @@ function App() {
               <p className="h-32 name text-5xl font-bold">
                 Alexander Maniwang
               </p>
-              <p className="mb-5 text-2xl" id='about-me'>
-                Full-Stack Developer
-              </p>
+              <div className="mb-5 text-2xl" id='about-me'>
+                <Title />
+              </div>
             </div>
           </div>
         </div>
@@ -34,12 +35,12 @@ function App() {
 
         <div className="text-center">
           <h2 className="text-4xl m-5">About Me</h2>
-          <p className="w-7/12 m-auto">I am an innovative Software Engineer with a passion for problem-solving that drives me to create high quality applications that are instinctively user-friendly. My background in retail and restaurant settings help me better understand consumer and customer needs and helps me focus under pressure, stay organized, and receive constant feedback. I have a constant drive to sculpt and mitigate actions to create a more efficient and straightforward engagement for customers.</p>
+          <p className="w-7/12 m-auto"> My passion for technological advancements and efficiency does not only reside within the Software Engineering world but is applied in all of tech. I strive for building effiencient applications as well as providing the best customer service to those who are in need in any job I am in. <br/> <br/> I am also an innovative Software Engineer with a passion for problem-solving that drives me to create high quality applications that are instinctively user-friendly. My background in retail and restaurant settings help me better understand consumer and customer needs and helps me focus under pressure, stay organized, and receive constant feedback. I have a constant drive to sculpt and mitigate actions to create a more efficient and straightforward engagement for customers.</p>
           <div>
             <a href="https://www.linkedin.com/in/alexandermaniwang/" target='_blank' rel='noreferrer'>
               <button className="btn btn-primary m-5">LinkedIn</button>
             </a>
-            <a href="https://github.com/WangManLex" target='_blank' rel='noreferrer'>
+            <a href="https://github.com/MrManilex" target='_blank' rel='noreferrer'>
               <button className="btn btn-accent m-5">GitHub</button>
             </a>
             <a href="https://drive.google.com/file/d/1gh0r0U2SmZtlIo0EcLp9uI0rIOmj3gXx/view?usp=sharing" target='_blank' rel='noreferrer'>

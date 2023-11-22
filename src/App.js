@@ -133,7 +133,7 @@ function App() {
                     Go To App
                   </button>
                 </a>
-                <a href="https://github.com/WangManLex/Blackjack" target='_blank' rel='noreferrer'>
+                <a href="https://mrmanilex.github.io/Blackjack/" target='_blank' rel='noreferrer'>
                   <button className="btn" id='skills'>
                     Github
                   </button>

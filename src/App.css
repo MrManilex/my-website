@@ -2,11 +2,11 @@ body {
    color: whitesmoke;
    font-family: 'Merriweather', serif;
 }
-p.name {
+/* p.name {
    background: rgb(131,58,180);
    background: linear-gradient(90deg, rgba(131,58,180,1) 15%, rgba(29,135,253,1) 50%, rgba(252,176,69,1) 85%);
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   /* text-fill-color: transparent; */
-}
+   text-fill-color: transparent; 
+} */

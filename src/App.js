@@ -1,21 +1,21 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar.jsx'
-import Title from './Components/Title/Title.jsx'
+// import Title from './Components/Title/Title.jsx'
 import React, { useState } from 'react';
 
 function App() {
-  const [aniWorld, setAniWorld] = useState(false)
+  // const [aniWorld, setAniWorld] = useState(false)
 
-  const handleClick = (e) => {
-    e.preventDefault()
-    setAniWorld(!aniWorld)
-  }
+  // const handleClick = (e) => {
+  //   e.preventDefault()
+  //   setAniWorld(!aniWorld)
+  // }
 
   return (
     <>
-      <Navbar />
-      <main className='bg-black'>
-        <div className="hero min-h-screen">
+      {/* <Navbar /> */}
+      {/* <main> */}
+      {/* <div className="hero min-h-screen">
           <div className="text-center hero-content">
             <div className="max-w-md">
               <div className='avatar w-7/12'>
@@ -29,9 +29,26 @@ function App() {
               </div>
             </div>
           </div>
+        </div> */}
+      {/* <div className="hero min-h-screen bg-base-200">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">Under Construction</h1>
+            <p className="py-6">The portfolio for <span className='text-primary'>Alexander Maniwang</span> is currently under construction. <br /> Any inquiries please email: <span className='text-primary'>alexandermaniwang99@gmail.com</span></p>
+          </div>
         </div>
+      </div> */}
+      <div className="hero min-h-screen" style={{ backgroundImage: 'url(images/abstract.jpg)' }}>
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+            <p className="mb-5 ">The portfolio for <span className='text-primary'>Alexander Maniwang</span> is currently under construction. <br /> Any inquiries please email: <span className='text-secondary'>alexandermaniwang99@gmail.com</span></p>
+          </div>
+        </div>
+      </div>
 
-        <div className="divider w-8/12 m-auto"></div>
+      {/* <div className="divider w-8/12 m-auto"></div>
 
         <div className="text-center">
           <h2 className="text-4xl m-5">About Me</h2>
@@ -157,9 +174,9 @@ function App() {
           </div>
         </div>
 
-        <div className="divider w-8/12 m-auto" id='contact'></div>
-        {/* -------- REACH ME ------------ */}
-        <div className='flex-column text-center'>
+        <div className="divider w-8/12 m-auto" id='contact'></div> */}
+      {/* -------- REACH ME ------------ */}
+      {/* <div className='flex-column text-center'>
           <p className='text-4xl m-9'>Get In Touch</p>
           <a href="https://www.linkedin.com/in/alexandermaniwang/" target='_blank' rel='noreferrer'>
             <button className="btn btn-primary m-5">LinkedIn</button>
@@ -168,8 +185,8 @@ function App() {
             alexandermaniwang99@gmail.com
           </button>
         </div>
-      </main>
-      <footer className="p-10 footer bg-neutral text-neutral-content">
+      </main >
+      {/* <footer className="p-10 footer bg-neutral text-neutral-content">
         <div>
           <span>© 2022 Alexander Maniwang</span>
         </div>
@@ -177,10 +194,10 @@ function App() {
           <span className="neutral-content"> All icons used by <a href="https://icons8.com/">Icons8**</a>
           </span>
         </div>
-      </footer>
+      </footer> */}
 
       {/* modals  */}
-      <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+      {/* <input type="checkbox" id="my-modal-5" className="modal-toggle" />
       <div className="modal">
         <div className="modal-box w-11/12 max-w-max">
           <div className='flex'>
@@ -200,7 +217,7 @@ function App() {
             <label htmlFor="my-modal-5" className="btn">Close</label>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
